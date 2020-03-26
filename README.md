@@ -34,12 +34,21 @@ You can then access the application through the following URL:
 ## The Solution
 
 1: Created Models, Views, CRUD using Yii2 built in Gii as instructed.
+
 2: Did modifications in codes (MVC) as required.
+
 3: Created Data Migration option that imports user.json & loan.json.
+
 4: UI is similar as your provided Image.
+
 5: Options for: "All Loans", "Create Loan", "All Users", "Create User".
+
 6: Created a function to calculate age using Estonia Personal ID Code (located in views/users/index.php).
+
 7: Displayed age, and eligibility on All Users.
+
 8: Did data binding to display user name in "All Loan" and "Loan Detail" page (extra added to make it cool).
+
 9: Snapshots of working screen are added in "snapshots" folder.
+
 10: If anything, please write back to me at nitin@npkgroups.com 
