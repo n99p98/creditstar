@@ -2,7 +2,7 @@
 
 Hello Creditstar IT Team!
 
-Here is my solution.
+Here is my solution for my job application.
 
 ## Setup
 
