@@ -1,10 +1,8 @@
 #Test exercise for Creditstar Group
 
-As a very first shortlisting procedure of candidates, we have set up a test exercise that the interested applicants are executing.  
+Hello Creditstar IT Team!
 
-We assume that interested applicants would be able to complete the test within a few days. 
-
-Once the test is completed please forward the results to <it.career@creditstar.com>.
+Here is my solution.
 
 ## Setup
 
@@ -34,12 +32,21 @@ You can then access the application through the following URL:
 ## The Solution
 
 1: Created Models, Views, CRUD using Yii2 built in Gii as instructed.
+
 2: Did modifications in codes (MVC) as required.
+
 3: Created Data Migration option that imports user.json & loan.json.
+
 4: UI is similar as your provided Image.
+
 5: Options for: "All Loans", "Create Loan", "All Users", "Create User".
+
 6: Created a function to calculate age using Estonia Personal ID Code (located in views/users/index.php).
+
 7: Displayed age, and eligibility on All Users.
+
 8: Did data binding to display user name in "All Loan" and "Loan Detail" page (extra added to make it cool).
+
 9: Snapshots of working screen are added in "snapshots" folder.
+
 10: If anything, please write back to me at nitin@npkgroups.com 
