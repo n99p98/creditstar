@@ -1,0 +1,416 @@
+html,body{height:100%;}
+nav,section{display:block;}
+script{display:none!important;}
+html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+body{margin:0;}
+a{background:transparent;}
+a:focus{outline:thin dotted;}
+a:active,a:hover{outline:0;}
+img{border:0;}
+button,input{font-family:inherit;font-size:100%;margin:0;}
+button,input{line-height:normal;}
+button{text-transform:none;}
+button{-webkit-appearance:button;cursor:pointer;}
+button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0;}
+/*! CSS Used from: https://www.creditstar.co.uk/css/foundation.css?v=1584716071 */
+meta.foundation-mq-small{font-family:"/only screen and (max-width: 40em)/";width:0em;}
+meta.foundation-mq-medium{font-family:"/only screen and (min-width:64em)/";width:64em;}
+meta.foundation-mq-large{font-family:"/only screen and (min-width:64.063em)/";width:64.063em;}
+meta.foundation-mq-xlarge{font-family:"/only screen and (min-width:90.063em)/";width:90.063em;}
+meta.foundation-mq-xxlarge{font-family:"/only screen and (min-width:120.063em)/";width:120.063em;}
+meta.foundation-data-attribute-namespace{font-family:false;}
+html,body{height:100%;}
+*,*:before,*:after{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}
+html,body{font-size:100%;}
+body{background:white;color:#222222;padding:0;margin:0;font-family:"Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;font-weight:normal;font-style:normal;line-height:1;position:relative;cursor:default;}
+a:hover{cursor:pointer;}
+img{max-width:100%;height:auto;}
+img{-ms-interpolation-mode:bicubic;}
+.right{float:right!important;}
+img{display:inline-block;vertical-align:middle;}
+.row{width:100%;margin-left:auto;margin-right:auto;margin-top:0;margin-bottom:0;max-width:62.5rem;*zoom:1;}
+.row:before,.row:after{content:" ";display:table;}
+.row:after{clear:both;}
+.row .row{width:auto;margin-left:-0.9375rem;margin-right:-0.9375rem;margin-top:0;margin-bottom:0;max-width:none;*zoom:1;}
+.row .row:before,.row .row:after{content:" ";display:table;}
+.row .row:after{clear:both;}
+.columns{padding-left:0.9375rem;padding-right:0.9375rem;width:100%;float:left;}
+@media only screen{
+.columns{position:relative;padding-left:0.9375rem;padding-right:0.9375rem;float:left;}
+[class*=column] + [class*=column]:last-child{float:right;}
+}
+@media only screen and (min-width: 64em){
+.columns.medium-centered{margin-left:auto;margin-right:auto;float:none;}
+.medium-pull-3{right:25%;left:auto;}
+.medium-pull-4{right:33.33333%;left:auto;}
+.medium-push-5{left:41.66667%;right:auto;}
+.medium-push-8{left:66.66667%;right:auto;}
+.columns{position:relative;padding-left:0.9375rem;padding-right:0.9375rem;float:left;}
+.medium-3{width:25%;}
+.medium-4{width:33.33333%;}
+.medium-5{width:41.66667%;}
+.medium-6{width:50%;}
+.medium-8{width:66.66667%;}
+.medium-11{width:91.66667%;}
+.medium-12{width:100%;}
+[class*=column] + [class*=column]:last-child{float:right;}
+}
+@media only screen and (min-width: 64.063em){
+.columns{position:relative;padding-left:0.9375rem;padding-right:0.9375rem;float:left;}
+[class*=column] + [class*=column]:last-child{float:right;}
+}
+meta.foundation-mq-topbar{font-family:"/only screen and (min-width:64em)/";width:64em;}
+.contain-to-grid{width:100%;background:#333333;}
+.contain-to-grid .top-bar{margin-bottom:0;}
+.top-bar{overflow:hidden;height:45px;line-height:45px;position:relative;background:#333333;margin-bottom:0;}
+.top-bar ul{margin-bottom:0;list-style:none;}
+.top-bar .title-area{position:relative;margin:0;}
+.top-bar .name{height:45px;margin:0;font-size:16px;}
+.top-bar .toggle-topbar{position:absolute;right:0;top:0;}
+.top-bar .toggle-topbar a{color:white;text-transform:uppercase;font-size:0.8125rem;font-weight:bold;position:relative;display:block;padding:0 15px;height:45px;line-height:45px;}
+.top-bar .toggle-topbar.menu-icon{right:15px;top:50%;margin-top:-16px;padding-left:40px;}
+.top-bar .toggle-topbar.menu-icon a{height:34px;line-height:33px;padding:0;padding-right:25px;color:white;position:relative;}
+.top-bar .toggle-topbar.menu-icon a::after{content:"";position:absolute;right:0;display:block;width:16px;top:0;height:0;-webkit-box-shadow:0 10px 0 1px white, 0 16px 0 1px white, 0 22px 0 1px white;box-shadow:0 10px 0 1px white, 0 16px 0 1px white, 0 22px 0 1px white;}
+.top-bar-section{left:0;position:relative;width:auto;-webkit-transition:left 300ms ease-out;-moz-transition:left 300ms ease-out;transition:left 300ms ease-out;}
+.top-bar-section ul{width:100%;height:auto;display:block;background:#333333;font-size:16px;margin:0;}
+.top-bar-section ul li > a{display:block;width:100%;color:white;padding:12px 0 12px 0;padding-left:15px;font-family:"Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;font-size:0.8125rem;font-weight:normal;background:#333333;}
+.top-bar-section ul li:hover > a{background:#272727;color:white;}
+@media only screen and (min-width: 64em){
+.top-bar{background:#333333;*zoom:1;overflow:visible;}
+.top-bar:before,.top-bar:after{content:" ";display:table;}
+.top-bar:after{clear:both;}
+.top-bar .toggle-topbar{display:none;}
+.top-bar .title-area{float:left;}
+.contain-to-grid .top-bar{max-width:62.5rem;margin:0 auto;margin-bottom:0;}
+.top-bar-section{-webkit-transition:none 0 0;-moz-transition:none 0 0;transition:none 0 0;left:0!important;}
+.top-bar-section ul{width:auto;height:auto!important;display:inline;}
+.top-bar-section ul li{float:left;}
+.top-bar-section li:not(.has-form) a:not(.button){padding:0 15px;line-height:45px;background:#333333;}
+.top-bar-section li:not(.has-form) a:not(.button):hover{background:#272727;}
+}
+button{border-style:solid;border-width:0px;cursor:pointer;font-family:"Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;font-weight:normal;line-height:normal;margin:0 0 1.25rem;position:relative;text-decoration:none;text-align:center;display:inline-block;padding-top:1rem;padding-right:2rem;padding-bottom:1.0625rem;padding-left:2rem;font-size:1rem;background-color:#008cba;border-color:#007095;color:white;-webkit-transition:background-color 300ms ease-out;-moz-transition:background-color 300ms ease-out;transition:background-color 300ms ease-out;padding-top:1.0625rem;padding-bottom:1rem;-webkit-appearance:none;border:none;font-weight:normal!important;}
+button:hover,button:focus{background-color:#007095;}
+button:hover,button:focus{color:white;}
+@media only screen and (min-width: 64em){
+button{display:inline-block;}
+}
+.text-center{text-align:center!important;}
+div,ul,li,h2,form,p{margin:0;padding:0;}
+a{color:#008cba;text-decoration:none;line-height:inherit;}
+a:hover,a:focus{color:#0078a0;}
+a img{border:none;}
+p{font-family:inherit;font-weight:normal;font-size:1rem;line-height:1.6;margin-bottom:1.25rem;text-rendering:optimizeLegibility;}
+h2{font-family:"Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;font-weight:normal;font-style:normal;color:#222222;text-rendering:optimizeLegibility;margin-top:0.2rem;margin-bottom:0.5rem;line-height:1.4;}
+h2{font-size:1.6875rem;}
+ul{font-size:1rem;line-height:1.6;margin-bottom:1.25rem;list-style-position:outside;font-family:inherit;}
+ul{margin-left:1.1rem;}
+ul.no-bullet{margin-left:0;}
+ul li ul{margin-left:1.25rem;margin-bottom:0;}
+ul.no-bullet{list-style:none;}
+@media only screen and (min-width: 64em){
+h2{line-height:1.4;}
+h2{font-size:2.3125rem;}
+}
+@media print{
+*{background:transparent!important;color:black!important;box-shadow:none!important;text-shadow:none!important;}
+a,a:visited{text-decoration:underline;}
+a[href]:after{content:" (" attr(href) ")";}
+a[href^="javascript:"]:after,a[href^="#"]:after{content:"";}
+img{page-break-inside:avoid;}
+img{max-width:100%!important;}
+p,h2{orphans:3;widows:3;}
+h2{page-break-after:avoid;}
+.hide-on-print{display:none!important;}
+.hide-for-print{display:none!important;}
+}
+.reveal-modal{visibility:hidden;display:none;position:absolute;left:50%;z-index:99;height:auto;margin-left:-40%;width:80%;background-color:white;padding:1.25rem;border:solid 1px #666666;-webkit-box-shadow:0 0 10px rgba(0, 0, 0, 0.4);box-shadow:0 0 10px rgba(0, 0, 0, 0.4);top:6.25rem;}
+.reveal-modal > :first-child{margin-top:0;}
+.reveal-modal > :last-child{margin-bottom:0;}
+.reveal-modal .close-reveal-modal{font-size:1.375rem;line-height:1;position:absolute;top:0.5rem;right:0.6875rem;color:#aaaaaa;font-weight:bold;cursor:pointer;}
+@media only screen and (min-width: 64em){
+.reveal-modal{padding:1.875rem;top:6.25rem;}
+}
+@media print{
+.reveal-modal{background:white!important;}
+}
+.text-center{text-align:center!important;}
+form{margin:0 0 1rem;}
+label{font-size:0.875rem;color:#4d4d4d;cursor:pointer;display:block;font-weight:normal;line-height:1.5;margin-bottom:0;}
+input[type=text],input[type=password]{-webkit-appearance:none;background-color:white;font-family:inherit;border:1px solid #cccccc;-webkit-box-shadow:inset 0 1px 2px rgba(0, 0, 0, 0.1);box-shadow:inset 0 1px 2px rgba(0, 0, 0, 0.1);color:rgba(0, 0, 0, 0.75);display:block;font-size:0.875rem;margin:0 0 1rem 0;padding:0.5rem;height:2.3125rem;width:100%;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;-webkit-transition:-webkit-box-shadow 0.45s, border-color 0.45s ease-in-out;-moz-transition:-moz-box-shadow 0.45s, border-color 0.45s ease-in-out;transition:box-shadow 0.45s, border-color 0.45s ease-in-out;}
+input[type=text]:focus,input[type=password]:focus{border-color:#f80;}
+input[type=text]:focus,input[type=password]:focus{border-color:#f80;outline:none;}
+.show-for-small,.hide-for-medium-up{display:inherit!important;}
+.hide-for-small,.show-for-medium-up{display:none!important;}
+@media only screen and (min-width: 64em){
+.hide-for-small,.show-for-medium-up{display:inherit!important;}
+.show-for-small,.hide-for-medium-up{display:none!important;}
+}
+@media only screen and (min-width: 64.063em){
+.hide-for-small,.show-for-medium-up{display:inherit!important;}
+}
+@media only screen and (min-width: 90.063em){
+.hide-for-small,.show-for-medium-up{display:inherit!important;}
+}
+@media only screen and (min-width: 120.063em){
+.hide-for-small,.show-for-medium-up{display:inherit!important;}
+}
+/*! CSS Used from: https://www.creditstar.co.uk/css/smslaen.css?v=1584716071 */
+body,h2,p{color:#666666;font-family:"Ubuntu", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;-webkit-font-smoothing:antialiased;}
+h2{color:#FF8800;}
+p{font-size:17px;font-weight:300;}
+@media only screen and (max-width: 64em){
+p{font-size:0.875rem;}
+}
+h2{font-weight:300;}
+a{color:#FF8800;outline:0;}
+a:hover{color:#FF8800;}
+a:hover,a:active,a:focus{outline:0;}
+form button.button-large{text-transform:uppercase;}
+.push-down-40{margin-bottom:40px;}
+@media only screen and (max-width: 64em){
+.push-down-40{margin-bottom:20px;}
+}
+.pull-down-20{margin-top:20px;}
+@media only screen and (max-width: 64em){
+.pull-down-20{margin-top:0px;}
+}
+.pull-down-40{margin-top:40px;}
+@media only screen and (max-width: 64em){
+.pull-down-40{margin-top:20px;}
+}
+.orange{color:#FF8800;}
+.c-text-white{color:#ffffff;}
+button:focus{outline:none;}
+.button-disabled{background:#ffffff;background-image:-webkit-linear-gradient(top, #ffffff, #f3f3f3);background-image:-moz-linear-gradient(top, #ffffff, #f3f3f3);background-image:-ms-linear-gradient(top, #ffffff, #f3f3f3);background-image:-o-linear-gradient(top, #ffffff, #f3f3f3);background-image:linear-gradient(to bottom, #ffffff, #f3f3f3);-webkit-border-radius:28px;-moz-border-radius:28px;-ms-border-radius:28px;-o-border-radius:28px;border-radius:28px;font-size:17px;padding:15px 25px 15px 25px;text-decoration:none;opacity:0.6;cursor:default;color:#818181!important;}
+.button-disabled:hover{color:#010101;cursor:default;}
+.button-orange{color:white;font-size:11px;font-weight:bold!important;text-align:center;background-color:#FF8800;border:2px white solid;line-height:24px;text-decoration:none;-webkit-border-radius:24px;-moz-border-radius:24px;-ms-border-radius:24px;-o-border-radius:24px;border-radius:24px;background-image:-webkit-gradient(linear, left top, left bottom, color-stop(0, #FFB700), color-stop(1, #FB8219));background-image:-o-linear-gradient(bottom, #FFB700 0%, #FB8219 100%);background-image:-moz-linear-gradient(bottom, #FFB700 0%, #FB8219 100%);background-image:-webkit-linear-gradient(bottom, #FFB700 0%, #FB8219 100%);background-image:-ms-linear-gradient(bottom, #FFB700 0%, #FB8219 100%);background-image:linear-gradient(to bottom, #FFB700 0%, #FB8219 100%);}
+.button-orange:hover{background:#ffffff;background-image:-webkit-linear-gradient(top, #ffffff, #f3f3f3);background-image:-moz-linear-gradient(top, #ffffff, #f3f3f3);background-image:-ms-linear-gradient(top, #ffffff, #f3f3f3);background-image:-o-linear-gradient(top, #ffffff, #f3f3f3);background-image:linear-gradient(to bottom, #ffffff, #f3f3f3);color:#666666!important;border-color:#EBEBEB;text-shadow:none!important;}
+.button-orange:hover p{color:#666666!important;text-shadow:none!important;}
+.button-orange .icon{display:inline-block;height:12px;width:12px;margin-right:3px;image-rendering:crisp-edges;background-size:12px;}
+.button-orange .icon.login{background:url(https://www.creditstar.co.uk/img/ico-login.png) no-repeat center center;}
+.button-orange:hover .icon.login{background:url(https://www.creditstar.co.uk/img/ico-login-h.png) no-repeat center center;}
+.button-large{display:inline-block;padding:12px 24px;height:auto;border:3px #EBEBEB solid;text-transform:uppercase;line-height:17px;font-size:13px;}
+.button-large p{line-height:17px;font-weight:700;color:#ffffff;margin-bottom:0;}
+@media only screen and (max-width: 64em){
+.button-large{padding:12px 24px;}
+.button-large p{font-size:13px;}
+}
+.button-large.with-shadow{border:3px #FDFDFD solid;-moz-box-shadow:0 1px 3px rgba(0, 0, 0, 0.51), inset -1px -1px 0 rgba(255, 255, 255, 0.33);-webkit-box-shadow:0 1px 3px rgba(0, 0, 0, 0.51), inset -1px -1px 0 rgba(255, 255, 255, 0.33);box-shadow:0 1px 3px rgba(0, 0, 0, 0.51), inset -1px -1px 0 rgba(255, 255, 255, 0.33);-ms-filter:"progid:DXImageTransform.Microsoft.dropshadow(OffX=0,OffY=1,Color=#cf000000,Positive=true)";filter:progid:DXImageTransform.Microsoft.dropshadow(OffX=0, OffY=1, Color=#cf000000, Positive=true);}
+.button-small{display:inline-block;padding:0 12px;height:24px;border:3px #EBEBEB solid;text-transform:uppercase;line-height:20px!important;font-weight:500!important;font-size:11px!important;}
+#page-header{background:#010101;color:#ffffff;}
+#page-header .top-bar{background:#010101;height:auto;padding:0 15px;}
+@media only screen and (max-width: 64em){
+#page-header .top-bar{padding:0 5px;}
+}
+@media only screen and (max-width: 64em){
+#page-header .top-bar .top-bar-section ul{background:transparent;font-size:13px;font-weight:bold;text-align:center;line-height:23px;}
+}
+#page-header ul{list-style-type:none;}
+#page-header ul li{display:inline-block;}
+#page-header .customer-service{font-size:15px;line-height:38px;}
+#page-header .customerservice-icon,#page-header .openingtimes-icon{padding-left:20px;font-weight:bold;font-size:13px;}
+@media only screen and (max-width: 64em){
+#page-header .customerservice-icon,#page-header .openingtimes-icon{padding-left:10px;}
+}
+#page-header .customerservice-icon img,#page-header .openingtimes-icon img{padding:4px;}
+#page-header .client-area{margin:7px 10px 4px 10px;}
+@media only screen and (max-width: 64em){
+#page-header .client-area{margin:7px 10px 7px 0;}
+#page-header .client-area ul.right{float:none!important;text-align:right;*zoom:1;}
+#page-header .client-area ul.right:before,#page-header .client-area ul.right:after{content:" ";display:table;}
+#page-header .client-area ul.right:after{clear:both;}
+}
+#page-header .client-area ul{background:none;}
+#page-header .client-area li{margin:0 0 0 10px;}
+@media only screen and (max-width: 64em){
+#page-header .client-area li{margin:0 0 0 5px;}
+}
+#page-header .client-area li a{line-height:24px;}
+#page-header .client-area li a.button-orange{padding:0 8px;font-size:11px;font-weight:bold;text-align:center;background-color:#FF8800;border:2px white solid;line-height:20px;text-decoration:none;text-transform:uppercase;-webkit-border-radius:24px;-moz-border-radius:24px;-ms-border-radius:24px;-o-border-radius:24px;border-radius:24px;background-image:-webkit-gradient(linear, left top, left bottom, color-stop(0, #FFB700), color-stop(1, #FB8219));background-image:-o-linear-gradient(bottom, #FFB700 0%, #FB8219 100%);background-image:-moz-linear-gradient(bottom, #FFB700 0%, #FB8219 100%);background-image:-webkit-linear-gradient(bottom, #FFB700 0%, #FB8219 100%);background-image:-ms-linear-gradient(bottom, #FFB700 0%, #FB8219 100%);background-image:linear-gradient(to bottom, #FFB700 0%, #FB8219 100%);}
+#page-header .client-area li a.button-orange:hover{background:#ffffff;background-image:-webkit-linear-gradient(top, #ffffff, #f3f3f3);background-image:-moz-linear-gradient(top, #ffffff, #f3f3f3);background-image:-ms-linear-gradient(top, #ffffff, #f3f3f3);background-image:-o-linear-gradient(top, #ffffff, #f3f3f3);background-image:linear-gradient(to bottom, #ffffff, #f3f3f3);color:#666666;border-color:#EBEBEB;}
+#page-header .client-area li a.button-orange .icon{margin-bottom:-2px;}
+.down-shadow{-webkit-box-shadow:0 0 3px 0 rgba(0, 0, 0, 0.37);box-shadow:0 0 3px 0 rgba(0, 0, 0, 0.37);margin-bottom:3px;}
+a[href^=tel]{color:inherit;text-decoration:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;}
+#main-menu{position:relative;z-index:10;}
+#main-menu.contain-to-grid{background:#ffffff;}
+#main-menu .top-bar{background:#ffffff;height:auto;padding:6px 25px 3px 15px;}
+@media only screen and (max-width: 64em){
+#main-menu .top-bar{padding-left:5px;padding-right:5px;}
+}
+#main-menu .top-bar .toggle-topbar.menu-icon{right:5px;}
+#main-menu .top-bar .toggle-topbar.menu-icon a{color:#444;font-size:18px;}
+#main-menu .top-bar .toggle-topbar.menu-icon a::after{-webkit-box-shadow:0 10px 0 1px #444, 0 16px 0 1px #444, 0 22px 0 1px #444;box-shadow:0 10px 0 1px #444, 0 16px 0 1px #444, 0 22px 0 1px #444;}
+@media only screen and (max-width: 64em){
+#main-menu .top-bar-section{float:none!important;display:none;margin-top:5px;}
+#main-menu .top-bar-section li{margin-left:5px;margin-right:5px;}
+#main-menu .top-bar-section li a:not(.button-orange){border-top:1px solid #DADADA;background:none;text-align:center;font-size:13px;padding:7px 10px;}
+}
+#main-menu .top-bar-section ul{background:#ffffff;}
+#main-menu .top-bar-section li > a:not(.button-orange){color:#444;padding:3px 12px 4px 25px;font-family:"Ubuntu", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;font-weight:400;font-size:15px;background:url("https://www.creditstar.co.uk/img/menu-arrow-orange.png") #fff no-repeat center right;}
+#main-menu .top-bar-section li > a:not(.button-orange):hover{color:#FF8800;}
+.page-wrapper{position:relative;margin-top:-3px;}
+#footer{background:#101010;color:#ffffff;padding:35px 0;}
+@media only screen and (max-width: 64em){
+#footer{padding:10px 10px;}
+}
+#footer .toggle-content-tree{color:white;padding:10px 30px 10px 0;background:rgba(0, 0, 0, 0) url("https://www.creditstar.co.uk/img/expandable-bullet-closed.png") no-repeat 100% 10px;}
+#footer h2{font-size:15px;font-weight:500;margin-bottom:20px;}
+@media only screen and (max-width: 64em){
+#footer h2{margin-bottom:0.5rem;}
+}
+#footer p{color:#ffffff;font-size:12px;font-weight:normal;}
+#footer ul.contacts{padding-top:20px;font-size:12px;font-weight:500;}
+#footer ul.contacts li{padding-left:17px;}
+#footer ul.contacts .contacts-address{background:url(https://www.creditstar.co.uk/img/ico-pinpoint.png) no-repeat center left;}
+#footer ul.contacts .contacts-phone{background:url(https://www.creditstar.co.uk/img/ico-customerservice.png) no-repeat center left;}
+#footer ul.contacts .contacts-times{background:url(https://www.creditstar.co.uk/img/ico-openingtimes.png) no-repeat center left;}
+#footer ul.contacts .contacts-email{background:url(https://www.creditstar.co.uk/img/ico-email.png) no-repeat center left;}
+@media only screen and (max-width: 64em){
+#footer .links-block{display:none;}
+}
+#footer .links-block li a{font-size:15px;color:#ffffff;font-weight:500;background:url("https://www.creditstar.co.uk/img/menu-arrow-orange.png") #101010 no-repeat center right;padding-right:16px;}
+#footer .links-block li.sublink a{font-size:13px;font-weight:400;color:#cccccc;background:none;}
+#footer .special-dots{background:url("https://www.creditstar.co.uk/img/footer-specialdots.png") repeat-x 0 30px;}
+@media only screen and (max-width: 64em){
+#footer .special-dots{padding:0;}
+}
+#footer .disclaimer{font-size:13px;line-height:1.3;margin-top:10px;font-weight:500;}
+@media only screen and (max-width: 64em){
+#footer .disclaimer{padding-bottom:20px;}
+}
+#footer .security-disclaimer{font-size:11px;color:#878787;line-height:140%;}
+#footer .security-disclaimer div.medium-12{padding-top:20px;}
+.login-boxes{padding:0 0 15px 0;background-color:white;-moz-box-shadow:0 0 2px rgba(0, 0, 0, 0.37);-webkit-box-shadow:0 0 2px rgba(0, 0, 0, 0.37);box-shadow:0 0 2px rgba(0, 0, 0, 0.37);-ms-filter:"progid:DXImageTransform.Microsoft.dropshadow(OffX=0,OffY=0,Color=#5e000000,Positive=true)";filter:progid:DXImageTransform.Microsoft.dropshadow(OffX=0, OffY=0, Color=#5e000000, Positive=true);}
+#login-container{min-height:460px;}
+@media only screen and (max-width: 64em){
+#login-container{min-height:350px;}
+#login-container .row{margin-left:-5px;margin-right:-5px;}
+}
+#login-container p.description{padding:10px 20px;font-size:17px;font-weight:300;}
+#login-container .form label{font-weight:300;font-size:17px;}
+#login-container .form-actions .columns{padding:0;}
+#login-container .form-actions .sub-actions{margin-top:15px;}
+@media only screen and (max-width: 64em){
+#login-container .form-actions .sub-actions{margin-top:0;}
+}
+#login-container .form-actions .sub-actions a{color:#999999;font-size:13px;text-decoration:underline;}
+#login-container .form-actions button{width:100%;text-transform:uppercase;}
+#container-or{background:url(https://www.creditstar.co.uk/img/shadow-circle-48.png) no-repeat;width:49px;height:50px;position:absolute;z-index:5;line-height:49px;color:#FF8800;text-align:center;left:50%;top:250px;margin-left:-25px;margin-top:-25px;}
+#register-container{display:table;min-height:460px;}
+@media only screen and (max-width: 64em){
+#register-container{min-height:0;display:block;}
+}
+#register-container-inner{display:table-cell;vertical-align:middle;padding:40px;}
+@media only screen and (max-width: 64em){
+#register-container-inner{display:block;padding:10px;}
+}
+@media only screen and (max-width: 64em){
+.reveal-modal{width:100%;margin-left:-50%;top:0;padding:15px 0;}
+}
+@media only screen and (min-width: 64em){
+#terms-modal{width:770px;margin-left:-385px;}
+}
+@media only screen and (min-width: 64em){
+#campaign-modal{width:960px;margin-left:-480px;}
+}
+@media only screen and (max-width: 64.063em){
+input{font-size:15px!important;}
+}
+.top-bar .name a.top-bar-logo{line-height:45px;font-size:1.0625rem;margin:0;}
+#login-container span.login-label{padding-top:20px;margin:auto;font-weight:300;color:#FF8800;font-size:2.3125rem;text-align:center!important;-webkit-font-smoothing:antialiased;line-height:1.4;display:block;}
+@media only screen and (max-width: 64em){
+#login-container span.login-label{font-size:1.6875rem;}
+}
+#register-container-inner span.registration-label{margin-top:0.2rem;margin-bottom:0.5rem;font-weight:300;color:#FF8800;font-size:2.3125rem;text-align:center!important;-webkit-font-smoothing:antialiased;line-height:1.4;display:block;}
+@media only screen and (max-width: 64em){
+#register-container-inner span.registration-label{font-size:1.6875rem;}
+}
+.mobile-header{top:0;position:fixed;z-index:1003;height:54px;width:100%;transition:top 0.3s;}
+.mobile-header .bar{height:4px;background:#000000;}
+.mobile-header .navigation{height:50px;background:#FFFFFF;box-shadow:0 0 4px rgba(0, 0, 0, 0.36965);-webkit-box-shadow:0 0 4px rgba(0, 0, 0, 0.36965);margin-bottom:4px;}
+.mobile-header .navigation .logo{position:absolute;top:15px;left:12px;height:26px;width:125px;background:url(https://www.creditstar.co.uk/img/mobile/cs_logo.png);}
+.mobile-header .navigation ul.menu{list-style-type:none;}
+.mobile-header .navigation ul.menu li{display:inline;float:left;border-left:1px solid #EDEDED;height:50px;width:50px;cursor:pointer;}
+.mobile-header .navigation ul.menu li.burger{background:url(https://www.creditstar.co.uk/img/mobile/burger.svg) 15px 17px no-repeat;}
+.mobile-header .navigation ul.menu li.info{background:url(https://www.creditstar.co.uk/img/mobile/info.svg) 17px 16px no-repeat;}
+.mobile-header .navigation ul.menu li.login{background:url(https://www.creditstar.co.uk/img/mobile/login.svg) 15px 15px no-repeat;}
+.mobile-spacer{width:100%;height:54px;}
+.mobile-menu-overlay{display:none;position:fixed;overflow:scroll;width:100%;height:100%;top:0;left:0;right:0;bottom:0;background:rgba(255, 255, 255, 0.95);padding:55px 0 0 0;z-index:1002;}
+.mobile-menu-overlay .mobile-menu-info{display:none;color:#FF8702;margin-left:30px;overflow-wrap:break-word;font-size:24px;}
+.mobile-menu-overlay .mobile-menu-info .title{padding:50px 0 35px 0;font-style:normal;font-weight:300;line-height:39px;text-align:center;}
+.mobile-menu-overlay .mobile-menu-info .hours{font-style:normal;font-weight:500;line-height:26px;padding:15px 15px 15px 35px;background:url(https://www.creditstar.co.uk/img/mobile/clock.svg) 0 15px no-repeat;}
+.mobile-menu-overlay .mobile-menu-info .phone{font-style:normal;font-weight:500;line-height:26px;padding:15px 15px 15px 35px;background:url(https://www.creditstar.co.uk/img/mobile/phone.svg) 0 17px no-repeat;text-decoration:underline;}
+.mobile-menu-overlay .mobile-menu-info .email{font-style:normal;font-weight:500;line-height:26px;padding:15px 15px 15px 35px;background:url(https://www.creditstar.co.uk/img/mobile/envelope.svg) 0 21px no-repeat;text-decoration:underline;}
+.mobile-menu-overlay .mobile-menu-login{display:none;text-align:left;color:#FF8702;padding-top:20px;margin-bottom:30px;}
+.mobile-menu-overlay .mobile-menu-login p.description{margin:0;}
+.mobile-menu-overlay .mobile-menu-nav{display:none;text-align:center;color:#FF8702;}
+.mobile-menu-overlay .mobile-menu-nav ul.mobile-menu-tree{list-style:none;margin:0;padding:40px 0 0 0;}
+.mobile-menu-overlay .mobile-menu-nav ul.mobile-menu-tree li{padding-bottom:20px;}
+.mobile-menu-overlay .mobile-menu-nav ul.mobile-menu-tree li a{font-size:22px;color:#FE8F04;}
+.mobile-menu-overlay .mobile-menu-nav ul.mobile-menu-tree ul{margin:0;padding:0;list-style:none;}
+.mobile-menu-overlay .mobile-menu-nav ul.mobile-menu-tree ul li{padding:0;}
+.mobile-menu-overlay .mobile-menu-nav ul.mobile-menu-tree ul li a{line-height:36px;font-size:18px;color:#0B0B0A;}
+.mobile-menu-overlay .mobile-menu-nav .login-button-holder{padding:40px 47px 0 47px;}
+.mobile-menu-overlay .mobile-menu-nav a.register{color:#0B0B0A;font-size:16px;text-decoration:underline;}
+.mobile-menu-overlay .mobile-menu-nav a.button-orange{width:100%;margin-bottom:20px;}
+.mobile-menu-overlay .mobile-menu-nav a.button-orange p{font-weight:500;line-height:23px;font-size:23px;text-transform:capitalize;}
+/*! CSS Used from: https://www.creditstar.co.uk/assets/bcc96cb0/css/uk.css?v=1584716131 */
+@media only screen and (min-width: 30.063em){
+.show-for-small{display:block;}
+}
+@media only screen and (max-width: 30.063em){
+.show-for-small{display:block;}
+}
+/*! CSS Used fontfaces */
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:300;src:local('Ubuntu Light'), local('Ubuntu-Light'), url(https://fonts.gstatic.com/s/ubuntu/v14/4iCv6KVjbNBYlgoC1CzjvWyNPYZvg7UI.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:300;src:local('Ubuntu Light'), local('Ubuntu-Light'), url(https://fonts.gstatic.com/s/ubuntu/v14/4iCv6KVjbNBYlgoC1CzjtGyNPYZvg7UI.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:300;src:local('Ubuntu Light'), local('Ubuntu-Light'), url(https://fonts.gstatic.com/s/ubuntu/v14/4iCv6KVjbNBYlgoC1CzjvGyNPYZvg7UI.woff2) format('woff2');unicode-range:U+1F00-1FFF;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:300;src:local('Ubuntu Light'), local('Ubuntu-Light'), url(https://fonts.gstatic.com/s/ubuntu/v14/4iCv6KVjbNBYlgoC1Czjs2yNPYZvg7UI.woff2) format('woff2');unicode-range:U+0370-03FF;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:300;src:local('Ubuntu Light'), local('Ubuntu-Light'), url(https://fonts.gstatic.com/s/ubuntu/v14/4iCv6KVjbNBYlgoC1CzjvmyNPYZvg7UI.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:300;src:local('Ubuntu Light'), local('Ubuntu-Light'), url(https://fonts.gstatic.com/s/ubuntu/v14/4iCv6KVjbNBYlgoC1CzjsGyNPYZvgw.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:400;src:local('Ubuntu Regular'), local('Ubuntu-Regular'), url(https://fonts.gstatic.com/s/ubuntu/v14/4iCs6KVjbNBYlgoKcg72nU6AF7xm.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:400;src:local('Ubuntu Regular'), local('Ubuntu-Regular'), url(https://fonts.gstatic.com/s/ubuntu/v14/4iCs6KVjbNBYlgoKew72nU6AF7xm.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:400;src:local('Ubuntu Regular'), local('Ubuntu-Regular'), url(https://fonts.gstatic.com/s/ubuntu/v14/4iCs6KVjbNBYlgoKcw72nU6AF7xm.woff2) format('woff2');unicode-range:U+1F00-1FFF;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:400;src:local('Ubuntu Regular'), local('Ubuntu-Regular'), url(https://fonts.gstatic.com/s/ubuntu/v14/4iCs6KVjbNBYlgoKfA72nU6AF7xm.woff2) format('woff2');unicode-range:U+0370-03FF;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:400;src:local('Ubuntu Regular'), local('Ubuntu-Regular'), url(https://fonts.gstatic.com/s/ubuntu/v14/4iCs6KVjbNBYlgoKcQ72nU6AF7xm.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:400;src:local('Ubuntu Regular'), local('Ubuntu-Regular'), url(https://fonts.gstatic.com/s/ubuntu/v14/4iCs6KVjbNBYlgoKfw72nU6AFw.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:500;src:local('Ubuntu Medium'), local('Ubuntu-Medium'), url(https://fonts.gstatic.com/s/ubuntu/v14/4iCv6KVjbNBYlgoCjC3jvWyNPYZvg7UI.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:500;src:local('Ubuntu Medium'), local('Ubuntu-Medium'), url(https://fonts.gstatic.com/s/ubuntu/v14/4iCv6KVjbNBYlgoCjC3jtGyNPYZvg7UI.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:500;src:local('Ubuntu Medium'), local('Ubuntu-Medium'), url(https://fonts.gstatic.com/s/ubuntu/v14/4iCv6KVjbNBYlgoCjC3jvGyNPYZvg7UI.woff2) format('woff2');unicode-range:U+1F00-1FFF;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:500;src:local('Ubuntu Medium'), local('Ubuntu-Medium'), url(https://fonts.gstatic.com/s/ubuntu/v14/4iCv6KVjbNBYlgoCjC3js2yNPYZvg7UI.woff2) format('woff2');unicode-range:U+0370-03FF;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:500;src:local('Ubuntu Medium'), local('Ubuntu-Medium'), url(https://fonts.gstatic.com/s/ubuntu/v14/4iCv6KVjbNBYlgoCjC3jvmyNPYZvg7UI.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:500;src:local('Ubuntu Medium'), local('Ubuntu-Medium'), url(https://fonts.gstatic.com/s/ubuntu/v14/4iCv6KVjbNBYlgoCjC3jsGyNPYZvgw.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:700;src:local('Ubuntu Bold'), local('Ubuntu-Bold'), url(https://fonts.gstatic.com/s/ubuntu/v14/4iCv6KVjbNBYlgoCxCvjvWyNPYZvg7UI.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:700;src:local('Ubuntu Bold'), local('Ubuntu-Bold'), url(https://fonts.gstatic.com/s/ubuntu/v14/4iCv6KVjbNBYlgoCxCvjtGyNPYZvg7UI.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:700;src:local('Ubuntu Bold'), local('Ubuntu-Bold'), url(https://fonts.gstatic.com/s/ubuntu/v14/4iCv6KVjbNBYlgoCxCvjvGyNPYZvg7UI.woff2) format('woff2');unicode-range:U+1F00-1FFF;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:700;src:local('Ubuntu Bold'), local('Ubuntu-Bold'), url(https://fonts.gstatic.com/s/ubuntu/v14/4iCv6KVjbNBYlgoCxCvjs2yNPYZvg7UI.woff2) format('woff2');unicode-range:U+0370-03FF;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:700;src:local('Ubuntu Bold'), local('Ubuntu-Bold'), url(https://fonts.gstatic.com/s/ubuntu/v14/4iCv6KVjbNBYlgoCxCvjvmyNPYZvg7UI.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:700;src:local('Ubuntu Bold'), local('Ubuntu-Bold'), url(https://fonts.gstatic.com/s/ubuntu/v14/4iCv6KVjbNBYlgoCxCvjsGyNPYZvgw.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+.table-bordered, .table-bordered tr td, .table-bordered tr th
+{
+    border:0px hidden !important;
+    background-color:transparent !important;
+}
+.table-bordered tr, .table-bordered tr td
+{
+    border-top:0px hidden !important;
+    border-bottom:1px solid #aeaeae !important;
+}
+.customGrid {
+    border: 1px solid #d6d6d6;
+    padding: 30px 25px 25px;
+}
+.pull-down-20
+{
+    margin-top:20px;
+}
+th
+{
+	color:#FF8800;
+}
+.jumbotron {
+    text-align: center;
+    background-color: transparent;
+    border: 2px solid #d6d6d6;
+    box-shadow: 0px 1px 5px #aeaeae;
+}
